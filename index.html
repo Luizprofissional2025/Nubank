@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stack" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Nubank</title>
+</head>
+<body>
+    <header class="topo">
+        <h1 id="logo">
+            Nubank
+        </h1>
+    </header>
+    <section>
+        <div class="saque">
+            <main id="cartao" class="cartao">
+                <div class="topo-cartao"></div>
+                <header class="bandeiras">
+                    <img id="mastercard" src="../mastercard.png" alt="">
+                </header>
+                <div class="chip">
+                    <img id="chip" src="../chip-f.png" alt="">
+                </div>
+                <div>
+                    <h4>LUIZ H. M. ASSUNCAO</h4>
+                </div>
+            </main>
+            <main id="verso-cartao" class="verso-cartao">
+                <div class="tarja"></div>
+                <div class="numero-cartao">
+                    <span id="numero-do-cartao">5032</span> <span id="numero-do-cartao">9334</span> <span
+                        id="numero-do-cartao">3764</span> <span id="numero-do-cartao">9846</span>
+                </div>
+                <div class="data-cvv">
+                    <div class="data-expedicao">
+                        <p id="font-cinza">Data de expedicao</p>
+                        <p id="font-branca">20/25</p>
+                    </div>
+                    <div class="data-vencimento">
+                        <p id="font-cinza">Data de vencimento</p>
+                        <p id="font-branca">20/31</p>
+                    </div>
+                    <div class="cvv">
+                        <p id="font-cinza">Cvv</p>
+                        <p id="font-branca">945</p>
+                    </div>
+                </div>
+            </main>
+            <span id="btn-verso" class="material-symbols-outlined">
+                stack
+            </span>
+            <form action="" class="deposito-pix">
+                <h2 id="name-pix">Pix</h2>
+                <input placeholder="Nome" type="text">
+                <input placeholder="000-000-000.00" type="tel">
+                <input placeholder="10,00" type="number">
+                <textarea name="" id="" placeholder="Deixe uma mensagem"></textarea>
+                <button id="enviar-pix">Enviar</button>
+            </form>
+        </div>
+        <div class="deposito">
+            <p id="deposito-saldo">Saldo: 100,00</p>
+            <form action="" class="deposito-form">
+                <h2 id="name-deposito">Depositar</h2>
+                <input placeholder="Nome" type="text">
+                <input placeholder="000-000-000.00" type="tel">
+                <input placeholder="10,00" type="number">
+                <textarea name="" id="" placeholder="Deixe uma mensagem"></textarea>
+                <button id="depositar">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

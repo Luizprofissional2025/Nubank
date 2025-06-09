@@ -1,0 +1,14 @@
+@media(max-width: 800px) {
+    section {
+        display: block;
+    }
+
+    .topo {
+        width: 100%;
+    }
+
+    .deposito-form,
+    .deposito-pix {
+        max-width: 60%;
+    }
+}
