@@ -199,3 +199,205 @@
     .verso-cartao {
         display: none;
     }
+
+    body {
+        background-color: #0e0d0d;
+    }
+
+    .topo {
+        background-color: rgb(160, 32, 340);
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #logo,
+    #name-pix,
+    #name-saldo,
+    #name-deposito {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        font-weight: bolder;
+    }
+
+    #name-pix,
+    #name-saldo,
+    #name-deposito {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .bandeiras {
+        border-radius: 15px;
+    }
+
+    .cartao:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 10px 8px #6642e9;
+    }
+
+    .cartao, .verso-cartao {
+        background-color: rgb(160, 32, 340);
+        width: 350px;
+        height: 200px;
+        border-radius: 15px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        transition: all ease 0.5s;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .saque,
+    .deposito {
+        margin: 0 auto;
+        max-height: 476px;
+        margin-top: 20px;
+    }
+
+    #chip {
+        max-width: 35px;
+        margin-right: 200px;
+        margin-top: 30px;
+    }
+
+    #mastercard {
+        max-width: 65px;
+        margin-top: 20px;
+        margin-left: 230px;
+    }
+
+    h4 {
+        color: #fff;
+        font-weight: 500;
+        margin-right: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .deposito-form,
+    .deposito-pix {
+        max-width: 200px;
+        max-height: 150px;
+        width: 100%;
+        margin: 20px auto;
+        border: solid 1px #fff;
+        padding: 10px 30px 70px 30px;
+        border-radius: 10px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        text-align: center;
+        border: none;
+        border: solid 1px #c1c1c1;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+    #enviar-pix,
+    #depositar {
+        padding: 8px;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        background-color: rgb(29, 29, 236);
+        border: none;
+        border-radius: 5px;
+        border: solid 1px #fff;
+        width: 100%;
+    }
+
+    #deposito-saldo {
+        margin: 100px;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .material-symbols-outlined {
+        padding: 10px;
+        margin-left: 350px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 15px;
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+        transition: all ease 0.5s;
+    }
+
+    .material-symbols-outlined:hover {
+        transform: scale(1.2);
+        transition: all ease 0.5s;
+    }
+
+    .topo-cartao {
+        background-color: rgb(160, 32, 340);
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .tarja {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .data-cvv {
+        margin: 0 auto;
+        display: flex;
+        gap: 5px;
+    }
+
+    span {
+        color: #ccc;
+    }
+
+    .numero-cartao {
+        color: #fff;
+        font-size: 15px;
+        margin: 40px 15px 20px 15px;
+        letter-spacing: 2px;
+    }
+
+    #font-cinza {
+        color: #c1c1c1;
+        font-size: 13px;
+        margin: 15px 10px;
+
+    }
+
+    #font-branca {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .data-expedicao,
+    .data-vencimento,
+    .cvv {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    #numero-do-cartao {
+        color: #fff;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .verso-cartao {
+        display: none;
+    }
